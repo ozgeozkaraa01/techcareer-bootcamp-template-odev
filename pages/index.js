@@ -18,9 +18,15 @@ export default function Home() {
       <Header />
       <HeroSection />
       <div className="max-w-[1564px] py-2 px-4 mx-auto">
-        <ProjectsSection />
-        <AboutSection />
-        <ContactSection />
+        <section id="projects">
+          <ProjectsSection />
+        </section>
+        <section id="about">
+          <AboutSection />
+        </section>
+        <section id="contact">
+          <ContactSection />
+        </section>
         <LocationImage />
       </div>
       <Footer />
