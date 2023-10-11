@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection";
 import ProjectsSection from "../components/ProjectsSection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
+import LocationImage from "../components/LocationImage";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <ProjectsSection />
         <AboutSection />
         <ContactSection />
+        <LocationImage />
       </div>
     </div>
   );
