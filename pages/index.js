@@ -5,6 +5,7 @@ import ProjectsSection from "../components/ProjectsSection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
 import LocationImage from "../components/LocationImage";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <ContactSection />
         <LocationImage />
       </div>
+      <Footer />
     </div>
   );
 }
