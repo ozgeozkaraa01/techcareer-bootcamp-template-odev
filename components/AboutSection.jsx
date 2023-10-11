@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <div className="py-5">
+    <div className="py-5 px-2">
       <h3 className="py-4 border-b font-normal my-[10px] text-[24px]">About</h3>
-      <p className="px-2">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
