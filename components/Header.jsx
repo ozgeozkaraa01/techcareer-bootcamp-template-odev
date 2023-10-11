@@ -12,7 +12,7 @@ const Header = () => {
           <span className="font-extrabold">B R </span>
           <span className="px-2 tracking-widest">Architects</span>
         </Link>
-        <div className="flex">
+        <div className="hidden sm:inline-flex">
           <Link
             href="#projects"
             className="py-2 px-4 w-auto block whitespace-normal hover:bg-gray-300"
