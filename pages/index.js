@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
+import ProjectsSection from "../components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       </Head>
       <Header />
       <HeroSection />
+      <div className="max-w-[1564px] py-2 px-4 mx-auto">
+        <ProjectsSection />
+      </div>
     </div>
   );
 }
