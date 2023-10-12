@@ -14,7 +14,7 @@ const AboutSection = () => {
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-4 mt-10 filter grayscale-[75%]">
+      <div className="grid grid-cols-1 lg:grid-cols-4 mt-10 filter grayscale-[75%] lg:gap-2 gap-5">
         <div className="flex flex-col gap-2 px-2">
           <img
             src="https://www.w3schools.com/w3images/team2.jpg"
